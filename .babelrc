@@ -1,0 +1,29 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "env": {
+    "production": {
+      "plugins": ["react-native-paper/babel"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@assets": "./src/assets",
+          "@constants": "./src/constants",
+          "@components": "./src/components",
+          "@contexts": "./src/contexts",
+          "@enums": "./src/enums",
+          "@hooks": "./src/hooks",
+          "@navigation": "./src/navigation",
+          "@screens": "./src/screens",
+          "@theme": "./src/theme",
+          "@type": "./src/types",
+          "@utils": "./src/utils",
+          "@library": "./src/library"
+        }
+      }
+    ]
+  ]
+}

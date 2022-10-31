@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "no-shadow": "off",
+        "no-undef": "off",
+        "@typescript-eslint/explicit-function-return-type": "warn",
+        "curly": "off",
+        "jsx-quotes": ["warn", "prefer-single"],
+        "@typescript-eslint/no-unused-vars": "warn",
+        "react-hooks/rules-of-hooks": "warn",
+        "react-hooks/exhaustive-deps": "off",
+        "simple-import-sort/imports": [
+          "warn",
+          {
+            "groups": [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]]
+          }
+        ]
+      }
+    }
+  ]
+}
