@@ -11,6 +11,7 @@ export const App = (): JSX.Element => {
       <Text>Hi</Text>
       <Text>HELLO</Text>
       <Text>HELLO NIMESHIKA</Text>
+      <Text>HELLO SHASHIKA</Text>
     </View>
   );
 };
