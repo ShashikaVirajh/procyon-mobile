@@ -1,7 +1,6 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 
-export const App = () => {
+export const App = (): JSX.Element => {
   return (
     <View>
       <Text>Hi</Text>
@@ -11,6 +10,7 @@ export const App = () => {
       <Text>Hi</Text>
       <Text>Hi</Text>
       <Text>HELLO</Text>
+      <Text>HELLO NIMESHIKA</Text>
     </View>
   );
 };
