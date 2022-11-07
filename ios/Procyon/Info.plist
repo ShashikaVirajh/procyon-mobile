@@ -37,10 +37,9 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>IBMPlexSans-Regular.ttf</string>
-		<string>IBMPlexSans-Medium.ttf</string>
-		<string>IBMPlexSans-SemiBold.ttf</string>
-		<string>IBMPlexSans-Bold.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Bold.ttf</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
