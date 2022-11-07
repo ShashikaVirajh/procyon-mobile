@@ -1,17 +1,9 @@
 import { scaledNumber } from '@utils/layout.utils';
 
 export const fonts = {
-  IBM_Plex_Sans_Regular: 'IBMPlexSans-Regular',
-  IBM_Plex_Sans_Medium: 'IBMPlexSans-Medium',
-  IBM_Plex_Sans_Semi_Bold: 'IBMPlexSans-SemiBold',
-  IBM_Plex_Sans_Bold: 'IBMPlexSans-Bold',
-};
-
-export const fontWeights = {
-  regular: '400',
-  medium: '500',
-  semibold: '600',
-  bold: '700',
+  Roboto_Regular: 'Roboto-Regular',
+  Roboto_Medium: 'Roboto-Medium',
+  RobotoBold: 'Roboto-Bold',
 };
 
 export const fontSizes = {
